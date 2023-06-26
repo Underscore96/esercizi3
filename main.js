@@ -79,13 +79,15 @@
 // const numbersArray = [23, 45, 12, -8, -6, 23, 45, 1, 45, 34, 2];
 
 // function mapPariDispari(selectedArray) {
-//   const mappedArray = selectedArray.map(element => {
+//   const element = numbersArray[i];
+    
+//     let newElement;
 //     if (element % 2 === 0) {
-//       return 'PARI';
+//       newElement = 'PARI';
 //     } else {
-//       return 'DISPARI';
+//       newElement = 'DISPARI';
 //     }
-//   });
+//   };
 //   return mappedArray;
 // }
 
@@ -145,7 +147,65 @@
 // 6----------------------------------------------------
 
 
+// function toFirstCase(selectedWord) {
+//     const firstChar = selectedWord[0];
+//     const firstCharUpper = firstChar.toUpperCase();
+//     const restOfTheString = selectedWord.slice(1);
+//     return firstCharUpper + restOfTheString;
+    
+// }
 
+// function toCamelCase(selectedString){
+//     const lowerString = selectedString.toLowerCase();
+//     const wordsArray = lowerString.split(' ');
+//     if (wordsArray.length === 1) {
+//         return lowerString;
+//     } 
+    
+//  let camelString = '';
+//  for (let i = 0; i < wordsArray.length; i++){
+//     const element = wordsArray[1];
+//     if (i === 0){
+//         camelString += element;
+
+//     } else {
+//         camelString += toFirstCase(element);
+//     }
+//  }
+
+//  return camelString;
+// }
+
+// function toCamelCaseAll(arrayOfStrings){
+//     const tempArray = [];
+
+//     for (let i= 0; i < arrayOfStrings.length; i++){
+
+//         const element = arrayOfStrings[i];
+
+//         const newElement = toCamelCase(element);
+
+//         tempArray.push(newElement);
+//     }
+
+//     return tempArray;
+
+// }
+
+
+// const arrayOfStrings = ['23', 'PIPPO', 'pluto', 'la CASA blu', 'Osvaldo', '', 'porchetta'];
+
+// console.log(toCamelCaseAll(stringsArray));
+
+
+
+
+
+
+
+
+
+// --------------------------------------------------
 
 
 
